@@ -35,13 +35,13 @@ if part == 1:
     steps = 100
 else:
     steps = 1
-    
+
 while steps:
     if part == 1:
         steps -= 1
     else:
         steps += 1
-    # increment
+
     for i in range(0, 10):
         for k in range(0, 10):
             grid[i][k] += 1
