@@ -2,6 +2,9 @@ from aoc_1 import read_data
 
 
 def fish_buckets(arr, days):
+    """ Propagate fish for n days by moving them to 
+    buckets that represent how many days until they give birth. 
+    """
     while days:
         baby_fish = arr[0]
         babies = baby_fish
